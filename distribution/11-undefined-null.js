@@ -9,7 +9,7 @@
     myNumber = 12;
     myString = "hola";
     function hi(name) {
-        let hello = "Hola ";
+        let hello = "Hola";
         if (name) {
             hello += name;
         }
@@ -19,8 +19,8 @@
         console.log(hello);
     }
     function hi2(name) {
-        let hello = "Hola ";
-        hello += (name === null || name === void 0 ? void 0 : name.toLowerCase()) || 'nobody';
+        let hello = "Hola";
+        hello += (name === null || name === void 0 ? void 0 : name.toLowerCase()) || 'nobody'; //Optional chaining(?)
         console.log(hello);
     }
     hi("Nicolas");

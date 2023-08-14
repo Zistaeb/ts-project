@@ -22,7 +22,7 @@
   function hi2(name: string | null) {
     let hello = "Hola";
 
-      hello += name?.toLowerCase() || 'nobody';
+      hello += name?.toLowerCase() || 'nobody';        //Optional chaining(?)
 
     console.log(hello);
   }
